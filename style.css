@@ -139,12 +139,16 @@ header .navbar a{
 }
 .about .row .content{
     flex: 1 1 45rem;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 .about img{
     border: var(--border);
     border-radius: 0.5rem;
     width: 100%;
+    margin-left: -10px;
+}
+.about img:hover{
+    transform: scale(1.1);
 }
 .about .row .content h3{
     /* margin-top: -45px; */
